@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+.header{
+    color: #94fc13;
+    text-align: center;
+    font-size: 42px;
+    margin: 0;
+    padding: 15px;
+    font-family: Montserrat, sans-serif;
+    background-color: #272727;
+}
