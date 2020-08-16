@@ -1,0 +1,15 @@
+#edit-area{
+  position: relative;
+  user-select: none;
+}
+#edit-area p{
+  position: absolute;
+  margin: 0;
+  padding: 5px;
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+#edit-area input{
+  margin: 5px 15px 5px 5px;
+}
