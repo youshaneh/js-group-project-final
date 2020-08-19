@@ -24,7 +24,7 @@ function updateImages(boxCount){
   //Use a For loop (5)
   for (let i = 0; i < data.length; i++) {
     console.log(data[i])
-    imagesDiv.innerHTML += `<a href="edit.html?url=${data[i].url}&box=${data[i].box_count}"><img src="${data[i].url}"><a/>`
+    imagesDiv.innerHTML += `<a class="meme-link" href="edit.html?url=${data[i].url}&box=${data[i].box_count}"><img class="meme" src="${data[i].url}"><a/>`
   }
 }
 

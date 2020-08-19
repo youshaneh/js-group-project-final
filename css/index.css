@@ -1,0 +1,23 @@
+#images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meme-link{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid #000;
+}
+
+.meme{
+    height: 600px;
+}
+
+.box-count-container{
+    margin: 30px 40px 20px 40px;
+}
+
+#images{
+    margin: 10px 30px;
+}
