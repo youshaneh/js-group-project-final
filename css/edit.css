@@ -1,40 +1,52 @@
 #container {
-  display: flex;
+    display: flex;
 }
 
 #edit-area {
-  position: relative;
-  user-select: none;
+    position: relative;
+    user-select: none;
 }
 
 #edit-area p {
-  position: absolute;
-  margin: 0;
-  padding: 5px;
-  font-size: 60px;
-  font-weight: 900;
-  color: white;
+    position: absolute;
+    margin: 0;
+    padding: 5px;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
 }
 
 #edit-area input {
-  margin: 5px 15px 5px 5px;
+    margin: 5px 15px 5px 5px;
 }
 
 .meme {
-  padding: 10px;
-  height: 800px;
+    padding: 10px;
+    height: 800px;
 }
 
 .tool {
-  margin: 10px 20px 10px 5px;
+    margin: 10px 20px 10px 5px;
 }
 
 .tool.color {
-  width: 50px;
-  margin-left: 2px;
+    width: 50px;
+    margin-left: 2px;
 }
 
 .tool.size {
-  width: 20px;
-  margin-right: 2px;
+    width: 20px;
+    margin-right: 2px;
+}
+
+@media print {
+
+    /* All your print styles go here */
+    #tools, .header {
+        display: none !important;
+    }
+}
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
 }
